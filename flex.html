@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header,footer {
+    flex: none;
+    height: 52px;
+    background-color: gray;
+}
+main {
+    flex: 1;
+    background-color: #121212;
+    display: flex;
+}
+aside {
+    flex: none;
+    width: 270px;
+    background-color: #ececec;
+}
+div {
+    flex: 1;
+    background-color: #c6c6c6;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <header></header>
+    <main>
+        <aside></aside>
+        <div></div>
+    </main>
+    <footer></footer>
+</div>
+</body>
+</html>
